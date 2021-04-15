@@ -25,7 +25,8 @@ public class ReadToUpdate extends HttpServlet {
 	public void init() {
 		dao=new Dao("jdbc:mysql://localhost:3308/ourelectionproject", "root", "root");
 	}
-       
+     /**
+     some changes */
     /**
      * @see HttpServlet#HttpServlet()
      */
